@@ -1,0 +1,43 @@
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* GLASS NAVBAR */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* LOGO */
+.logo-icon {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: lightgray;
+  background-image: url(https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80);
+  background-size: cover;
+}
+
+/* PORTFOLIO CARD HOVER */
+.card-hover {
+  transition: 0.3s;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* MESSAGE SECTION FIX TEXT COLOR */
+#message-us-page,
+#message-us-page * {
+  color: #1f2937; /* text-gray-800 */
+}
+
+/* FORM */
+input, textarea {
+  color: #1f2937;
+}
+
